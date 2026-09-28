@@ -67,11 +67,11 @@
   "homepage": "https://open-slide.dev",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/1weiho/open-slide.git",
+    "url": "git+https://github.com/open-slide/open-slide.git",
     "directory": "packages/shared"
   },
   "bugs": {
-    "url": "https://github.com/1weiho/open-slide/issues"
+    "url": "https://github.com/open-slide/open-slide/issues"
   },
   "publishConfig": {
     "access": "public"
@@ -82,10 +82,10 @@
     "fast-glob": "^3.3.2",
     "fflate": "^0.8.3",
     "html-to-image": "^1.11.13",
-    "vite": "^8.2.2"
+    "vite": "^8.3.0"
   },
   "devDependencies": {
-    "@types/node": "^26.2.0",
+    "@types/node": "^26.6.2",
     "tsdown": "^0.22.14",
     "typescript": "^7.0.2"
   }

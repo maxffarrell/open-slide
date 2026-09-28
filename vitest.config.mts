@@ -5,6 +5,10 @@ export default defineConfig({
   resolve: {
     alias: [
       {
+        find: '@',
+        replacement: fileURLToPath(new URL('./packages/react/src/app', import.meta.url)),
+      },
+      {
         find: '@open-slide/shared/editing',
         replacement: fileURLToPath(
           new URL('./packages/shared/src/editing/index.ts', import.meta.url),

@@ -44,3 +44,7 @@ export default [Cover, Content] satisfies Page[];
 ```
 
 Save that module as `themes/plain.demo.ts` beside `themes/plain.md`.
+
+## Current v2 differences
+
+Svelte supports the core authoring, viewing, presenting, source-editing, and export workflows, but it does not yet include React's visual drag/resize/arrange editor or Google Fonts search UI. Presenter notes are displayed as plain text rather than rendered Markdown. Svelte PPTX export is image-based rather than editable PowerPoint objects, and its HTML export does not create intermediate builds for `<Step>` reveals.

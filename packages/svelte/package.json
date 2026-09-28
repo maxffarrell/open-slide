@@ -58,11 +58,11 @@
   "homepage": "https://open-slide.dev",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/1weiho/open-slide.git",
+    "url": "git+https://github.com/open-slide/open-slide.git",
     "directory": "packages/svelte"
   },
   "bugs": {
-    "url": "https://github.com/1weiho/open-slide/issues"
+    "url": "https://github.com/open-slide/open-slide/issues"
   },
   "publishConfig": {
     "access": "public"
@@ -76,11 +76,11 @@
     "commander": "^15.0.0",
     "svelte": "^5.57.0",
     "tailwindcss": "^4.3.3",
-    "vite": "^8.2.2"
+    "vite": "^8.3.0"
   },
   "devDependencies": {
     "@playwright/test": "~1.62.1",
-    "@types/node": "^26.2.0",
+    "@types/node": "^26.6.2",
     "svelte-check": "^4.7.6",
     "tsdown": "^0.22.14",
     "typescript": "^6.0.3"

@@ -1,6 +1,6 @@
 # @open-slide/cli
 
-Scaffold a React or Svelte workspace for [open-slide](https://github.com/1weiho/open-slide).
+Scaffold a React or Svelte workspace for [open-slide](https://github.com/open-slide/open-slide).
 
 ## Usage
 

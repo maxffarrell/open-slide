@@ -2,6 +2,7 @@ import type { Plugin, ViteDevServer } from 'vite';
 import { type ApiContext, type ApiPluginOptions, makeContext } from './api-context.ts';
 import { type AssetReferenceAdapter, registerAssetRoutes } from './asset-routes.ts';
 import { registerFolderRoutes } from './folder-routes.ts';
+import { registerGfontsRoutes } from './gfonts.ts';
 import { registerRestartRoutes } from './restart-routes.ts';
 import { registerSlideRoutes } from './slide-routes.ts';
 import { registerSvglRoutes } from './svgl-routes.ts';
@@ -20,6 +21,7 @@ export function registerSharedApiRoutes(
   registerSlideRoutes(server, ctx);
   registerAssetRoutes(server, ctx, options.assetReferences);
   registerSvglRoutes(server);
+  registerGfontsRoutes(server);
   registerFolderRoutes(server, ctx);
   registerRestartRoutes(server);
 }
